@@ -40,7 +40,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
         
 
         case "Selfie":
-            PlaySpeech(speak[6]);
+            //PlaySpeech(speak[6]);
             location.href = "Contents/Selfie/index.html";
             break;
         case "Avatar":
