@@ -261,7 +261,7 @@ a.button {
 	 font-size: 25px;
 }
 #content_air,#content_date,#condition{
-	font-size: 36px;
+	font-size: 36px !important;
 }
 #temp{
 	font-size: 25px;

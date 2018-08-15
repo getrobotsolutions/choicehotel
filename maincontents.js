@@ -1,9 +1,9 @@
 ﻿var speak = new Array( );
 
 
-        speak[0] = "Take a look at our robot at some of our previous trade shows";
-        speak[1] = "hear testimonials from trade show clients";
-        speak[2] = "spin the wheel for your chance to win great prizes";
+        speak[0] = "learn more about choice hotels!";
+        speak[1] = "Earn Choice Privileges points towards hotel rewards like free nights and airline miles whenever you stay at Choice Hotels.";
+        speak[2] = "let choice hotels help you decide on what to pack";
         speak[3] = "Read a welcome message from our dean.";
         speak[4] = "Find out what classes you need for your major.";
         speak[5] = "";
@@ -26,15 +26,15 @@ function FC_ContentsCall(strContentsName, strLanguage)
            location.href = "../../maincontents.htm";
             break;
         case "About":
-            //PlaySpeech(speak[0]);
+            PlaySpeech(speak[0]);
             location.href = "Contents/About/index.html";
             break;
-        case "Privilages":
-            //PlaySpeech(speak[1]);
-            location.href = "Contents/Privilages/index.html";
+        case "Privileges":
+            PlaySpeech(speak[1]);
+            location.href = "Contents/Privileges/index.html";
             break;
         case "Travel-tips":
-            //PlaySpeech(speak[2]);
+            PlaySpeech(speak[2]);
             location.href = "Contents/Travel-tips/index.html";
             break;
         
