@@ -111,7 +111,7 @@ var isPhotoTaken = false;
 function TakePhoto()
 {   
     window.external.SetVolume(1);
-    PlaySpeech('Look at the camera on the top of the robots head');
+    window.external.PlaySpeech('Look at the camera on the top of the robots head');
     
     isPhotoTaken = false;
     
