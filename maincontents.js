@@ -20,7 +20,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
     switch (strContentsName)
     {
         case "Welcome":
-            PlaySpeech("Hi, I'm Tracey the trade show robot. I can be rented for trade shows and events. Press a button on my screen to begin");
+            PlaySpeech("Hi, I'm Comfy! welcome to the choice hotels booth!");
             break;
         case "Home":
            location.href = "../../maincontents.htm";
