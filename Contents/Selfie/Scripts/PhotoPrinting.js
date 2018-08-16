@@ -111,15 +111,8 @@ var isPhotoTaken = false;
 function TakePhoto()
 {   
     window.external.SetVolume(1);
-    if(readCookie("CurrentLanguage")=="English"){
-        window.external.ChangeLanguage("en-us");
-        PlaySpeech('Look at the camera on the top of the robots head');
-    }
-    else if(readCookie("CurrentLanguage")=="Spanish"){
-        window.external.ChangeLanguage("es-us");
-        PlaySpeech("Mira la cámara en la parte superior de la cabeza de los robots");
-
-    }
+    PlaySpeech('Look at the camera on the top of the robots head');
+    
     isPhotoTaken = false;
     
     // 촬영 버튼 이미지 변경 & 숨김
